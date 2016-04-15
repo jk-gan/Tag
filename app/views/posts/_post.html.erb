@@ -1,0 +1,9 @@
+<%= div_for post do %>
+  <h1><%= link_to post.title.capitalize, post %></h1>
+
+  <hr>
+  <p><span class="glyphicon glyphicon-time"></span> <%= post.posted_on %></p>
+  <hr>
+
+  <%= post.body %>
+<% end %>
