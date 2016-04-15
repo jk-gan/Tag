@@ -1,1 +1,2 @@
-<span class="label label-info"><%= tag.name %></span>
+<!-- <span class="label label-info"><%= tag.name %></span> -->
+<%= link_to tag.name, tag_filter_path(tag.name), class: 'label label-info' %>
