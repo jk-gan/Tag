@@ -6,4 +6,8 @@
   <hr>
 
   <%= simple_format(post.body) %>
+
+  <div class="tags">
+    <%= render post.tags %>
+  </div>
 <% end %>
